@@ -31,13 +31,13 @@
   /* ── NAV ── */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 999;
-    height: 88px; display: flex; align-items: center; justify-content: space-between;
+    height: 112px; display: flex; align-items: center; justify-content: space-between;
     padding: 0 5%;
     background: rgba(255,255,255,0.97);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
   }
-  .nav-logo img { height: 72px; width: auto; display: block; border-radius: 12px; }
+  .nav-logo img { height: 100px; width: auto; display: block; border-radius: 12px; }
   .nav-links { display: flex; align-items: center; gap: 32px; }
   .nav-links a { font-size: 14px; color: var(--muted); text-decoration: none; font-weight: 500; transition: color 0.15s; }
   .nav-links a:hover { color: var(--navy); }
@@ -52,7 +52,7 @@
 
   /* ── HERO ── */
   .hero {
-    padding: 168px 5% 100px;
+    padding: 192px 5% 100px;
     background: linear-gradient(160deg, #f5f7ff 0%, #eef1fb 60%, #e8ecf8 100%);
     text-align: center; position: relative; overflow: hidden;
   }
@@ -239,7 +239,7 @@
   }
   .cta-section::before { content: ''; position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0,194,168,0.1) 0%, transparent 70%); }
   .cta-section h2 { font-family: 'Manrope', sans-serif; font-size: clamp(30px, 5vw, 54px); font-weight: 800; color: var(--white); max-width: 700px; margin: 0 auto 18px; line-height: 1.1; letter-spacing: -1.5px; }
-  .cta-section p { font-size: 18px; color: rgba(255,255,255,0.5); max-width: 500px; margin: 0 auto 40px; line-height: 1.75; }
+  .cta-section p { font-size: 18px; color: rgba(255,255,255,0.8); max-width: 500px; margin: 0 auto 40px; line-height: 1.75; }
   .btn-white { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600; color: var(--navy); background: var(--white); border: none; padding: 16px 36px; border-radius: 10px; cursor: pointer; transition: opacity 0.15s, transform 0.15s; box-shadow: 0 4px 20px rgba(0,0,0,0.2); display: inline-flex; align-items: center; gap: 10px; }
   .btn-white:hover { opacity: 0.93; transform: translateY(-2px); }
   .cta-note { margin-top: 18px; font-size: 13px; color: rgba(255,255,255,0.3); }
@@ -406,6 +406,8 @@
 <footer>
   <img src="leadflow_profile.jpg" alt="LeadFlow">
   <div class="footer-right">
+    <a href="https://www.instagram.com/byleadflow" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/company/leadflow" target="_blank">LinkedIn</a>
     <a href="#">Privacy Policy</a>
     <a href="#">Terms of Service</a>
     <a href="#">© 2025 LeadFlow</a>
