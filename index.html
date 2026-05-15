@@ -281,7 +281,7 @@
     <a href="#who">Who We Help</a>
     <a href="#faq">FAQ</a>
   </div>
-  <button class="nav-btn" onclick="openWidget()">Book a Free Call</button>
+  <button class="nav-btn" onclick="window.open('https://widget.useleadflow.co.uk', '_blank')">Book a Free Call</button>
 </nav>
 
 <!-- HERO -->
@@ -291,7 +291,7 @@
   <h1>We Fill Your Calendar.<br><span>You Close the Deals.</span></h1>
   <p class="hero-sub">LeadFlow installs a three-channel AI system across your website, Meta platforms, and email qualifying leads and booking calls automatically in 7 days or less.</p>
   <div class="hero-actions">
-    <button class="btn-primary" onclick="openWidget()">See If You Qualify <span>→</span></button>
+    <button class="btn-primary" onclick="window.open('https://widget.useleadflow.co.uk', '_blank')">See If You Qualify <span>→</span></button>
     <span class="hero-note">🔒 5 booked calls in 30 days or you pay nothing</span>
   </div>
 </div>
@@ -344,7 +344,7 @@
     <div class="meta-sell">
       <h2>⚡ You're experiencing it right now.</h2>
       <p>The chat widget on this page is the LeadFlow system live. The same AI that just spoke to you is exactly what we install for our clients. If it got your attention, imagine what it'll do for your leads.</p>
-      <button class="btn-teal" onclick="openWidget()">Talk to the AI →</button>
+      <button class="btn-teal" onclick="window.open('https://widget.useleadflow.co.uk', '_blank')">Talk to the AI →</button>
     </div>
   </div>
 </div>
@@ -398,7 +398,7 @@
 <div class="cta-section">
   <h2>Ready to stop chasing leads?</h2>
   <p>Book a free strategy call. We'll show you exactly how the system works and whether it's the right fit for your business.</p>
-  <button class="btn-white" onclick="openWidget()">See If You Qualify →</button>
+  <button class="btn-white" onclick="window.open('https://widget.useleadflow.co.uk', '_blank')">See If You Qualify →</button>
   <div class="cta-note">🔒 5 booked calls in 30 days or full refund · No setup fee</div>
 </div>
 
@@ -414,24 +414,7 @@
   </div>
 </footer>
 
-<!-- WIDGET -->
 <script>
-  (function() {
-    var s = document.createElement('script');
-    s.src = 'https://widget.useleadflow.co.uk/widget.js';
-    s.async = true;
-    document.head.appendChild(s);
-  })();
-
-  function openWidget() {
-    var b = document.getElementById('lf-bubble');
-    if (b) { b.click(); return; }
-    setTimeout(function() {
-      var b2 = document.getElementById('lf-bubble');
-      if (b2) b2.click();
-    }, 1000);
-  }
-
   function toggleFaq(btn) {
     btn.parentElement.classList.toggle('open');
   }
